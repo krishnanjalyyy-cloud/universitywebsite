@@ -1,0 +1,174 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background-color:#ffffff;   
+}
+
+
+header{
+    background-color:#cceeff;   
+    padding:15px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    color:#003366;   
+}
+
+nav a{
+    margin:10px;
+    text-decoration:none;
+    color:#003366;
+    font-weight:bold;
+}
+
+
+.hero{
+    text-align:center;
+    padding:60px;
+    background:linear-gradient(to right,#cceeff,#ffffff);
+}
+
+
+.hero h2{
+    color:#003366;
+}
+
+
+.hero button{
+    padding:10px 20px;
+    border:none;
+    background-color:#003366;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+.slider
+{
+width:600px;
+height:400px;
+margin:auto;
+position:relative;
+}
+
+.slides
+{
+width:600px;
+height:400px;
+display:none;
+}
+/* Center the About and Courses sections */
+#about, #courses {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Style headings */
+#about h2, #courses h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Style course titles */
+#courses h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Improve paragraph readability */
+#about p, #courses p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* Footer styling */
+#contact {
+    background-color: #0a1f44;  /* dark blue */
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    margin-top: 50px;
+}
+
+/* Footer heading */
+#contact h2 {
+    margin-bottom: 15px;
+}
+
+/* Footer text spacing */
+#contact p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+#courses {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.course-box {
+    background-color: #f4f6fb;
+    margin: 30px auto;
+    padding: 25px;
+    width: 70%;
+    border-left: 6px solid #0a1f44;
+    border-radius: 8px;
+}
+
+.course-box h3 {
+    color: #0a1f44;
+    margin-bottom: 15px;
+}
+
+.course-box h4 {
+    margin-top: 15px;
+}
+
+.course-box p {
+    font-size: 16px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #0a3d62;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #074a8c;
+}
